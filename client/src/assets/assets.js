@@ -1,7 +1,7 @@
 import {SquarePen, Hash, Image, Eraser, Scissors, FileText} from 'lucide-react';
 import logo from "./website_icon.png";
 import gradient_background from "./gradient_background.jpg";
-import profile_img_1 from "./profile_img_1";
+import profile_img_1 from "./profile_img_1.jpg";
 export const assets={
     logo,
     gradient_background,

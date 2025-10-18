@@ -10,6 +10,7 @@ import RemoveBackground from './pages/RemoveBackground.jsx';
 import RemoveObject from './pages/RemoveObject.jsx';
 import ReviewResume from './pages/ReviewResume.jsx';
 import Community from './pages/Community.jsx';
+import Navbar from './components/Navbar.jsx';
 const App = () => {
   return (
     <div>
