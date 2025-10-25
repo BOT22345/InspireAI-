@@ -15,12 +15,12 @@ const Navbar = () => {
         <img
           src={assets.logo}
           alt="logo"
-          className="w-10 h-20 sm:w-44 cursor-pointer"
+          className="w-10 h-10 sm:w-44 cursor-pointer"
           onClick={() => {
             navigate("/");
           }}
         ></img>
-        <h1 className="text-5xl text-black=200">InspireAI-</h1>
+        <h1 className="text-3xl text-black=200">InspireAI-</h1>
       </div>
       { user ? <UserButton></UserButton> : 
       <button onClick={openSignIn} className="flex items-center gap-2 rounded-full text-sm cursor-pointer bg-primary text-white px-10 py-2.5 h-20 text-xl">

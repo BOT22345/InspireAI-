@@ -10,7 +10,7 @@ const Hero = () => {
           <p className='mt-4 max-w-xs sm:ma x-w-lg 2xl:max-w-xl m-auto max-smm:text-xs text-gray-600 text-xl  '>Transform your content creation with our suite of premium AI tools. Write articles, generate images, and enhance your workflow</p>
         </div>
         <div className="flex flex-wrap justify-center gap -4 text-sm max-sm:text-xs py-10">
-          <button onClick={()=>{navigate('/ai')}}className='bg-primary text-white px-10 py-3 rounded-lg hover:scale-102 acrive:scale-95 transition cursor-pointer h-30 w-100 text-3xl'>Start creating now</button>
+          <button onClick={()=>{navigate('/ai')}}className='bg-primary text-white px-10 py-3 rounded-lg hover:scale-102 acrive:scale-95 transition cursor-pointer h-20 w-60 text-xl'>Start creating now</button>
         </div>
     </div>
     </>
