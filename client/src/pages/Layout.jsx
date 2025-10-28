@@ -17,7 +17,7 @@ const Layout = () => {
                   alt="logo"
                   className="w-5 h-10 sm:w-22 cursor-pointer"
                   onClick={() => {
-                    navigate("/");
+                    navigate("/") ;
                   }}
                 ></img>
                 <h1 className="text-3xl text-black">InspireAI-</h1>
