@@ -4,6 +4,7 @@ import {assets} from "../assets/assets.js"
 import {useNavigate} from "react-router-dom"
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import Sidebar from '../components/Sidebar.jsx'
 const Layout = () => {
   const navigate=useNavigate();
   const [sidebar, setSidebar]=useState(true);
@@ -26,6 +27,10 @@ const Layout = () => {
           sidebar ? <X onClick={()=>setSidebar(false)}className="w-6 h-6 text-gray-600 sm:hidden"></X> : <Menu onClick={()=>setSidebar(true)} className="w-6 h-6 text-gray-600 sm:hidden"></Menu>
         } 
       </nav>
+      <div className='flex-1 w-full flex h-[calc(100vh-64px)]'>
+        <Sidebar sidebar={sidebar} setSidebar={setSidebar}></Sidebar>
+        <div className='flex-1 bg-[#F4F7FB]'></div>
+      </div>
     <Outlet></Outlet>
     </div>
     </>
